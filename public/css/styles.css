@@ -1,0 +1,183 @@
+* {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+/* .container {
+  margin: 2rem 0rem;
+  width: 95%;
+  text-align: center;
+} */
+
+.container div {
+  display: inline-block;
+  line-height: 110%;
+  /* margin: 1%; */
+}
+
+.get-yourself-inspired {
+  width: 300px;
+  text-align: start;
+  padding: 5px;
+}
+.get-yourself-inspired h4 {
+  font-weight: bolder;
+}
+
+.get-yourself-inspired,
+.about-conference {
+  width: 45%;
+}
+/* About the conference */
+.about-conference {
+  text-align: start;
+  margin-left: 150px;
+}
+
+.about-conference p {
+  line-height: 1.5rem;
+}
+.but-container div {
+  border: 2px solid white;
+  text-align: center;
+  border-radius: 5px;
+  padding: 5px;
+  width: 100px;
+  background-color: black;
+  color: white;
+  line-height: 4px;
+}
+
+.front-image {
+  padding: 5px;
+  z-index: 1;
+  position: absolute;
+  width: 150px;
+  height: auto;
+  left: 14rem;
+}
+small {
+  font-size: 0.8em;
+}
+.card {
+  width: 18rem;
+}
+
+/* The speakers */
+#speaker-heading {
+  text-align: left;
+}
+.speaker-img {
+  border-radius: 50%;
+  border: 1px solid white;
+  position: static;
+  top: 5rem;
+  z-index: 5 !important;
+  width: 100px;
+  height: 120px;
+}
+
+.speaker-bio {
+  background-color: black;
+  color: white;
+  padding: 5px;
+  width: 200px;
+  text-align: center;
+  height: auto;
+  padding: 40px 0px 10px;
+  line-height: 40px;
+  margin-top: -70px;
+}
+
+.speaker-card {
+  text-align: center;
+  color: white;
+  width: 250px;
+  z-index: 0;
+  margin: 5px;
+  display: inline-block;
+}
+
+.attend-container {
+  color: white;
+  border-radius: 7px;
+  padding: 10px;
+  width: 90%;
+  background-color: rgb(111, 179, 34);
+}
+
+.attend-container div button {
+  background-color: black;
+  color: white;
+  width: 200px;
+  height: 50px;
+  border-radius: 5px;
+}
+
+/* ICONS on the pages
+ */
+.shape-square {
+  display: block !important;
+  margin: 10px 40px 200px;
+  width: 20px;
+  position: relative;
+  right: 2px;
+  height: 20px;
+  background-color: palevioletred;
+}
+
+.shape-orange {
+  display: block !important;
+  margin: 10px 40px 200px;
+  width: 20px;
+  border: 5px solid orange;
+  position: relative;
+  right: 2px;
+  height: 20px;
+}
+
+.shape-oval {
+  display: block !important;
+  margin: 20px 10px 10px 600px;
+  width: 20px;
+  border: 5px solid rgb(111, 179, 34);
+  position: relative;
+  right: 2px;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 100px;
+  height: 20px;
+}
+
+.shape-triangle {
+  display: block !important;
+  margin: 40px 90px 10px 70px;
+  width: 20px;
+  border: 5px solid palevioletred;
+  position: relative;
+  right: 2px;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 100px;
+  height: 20px;
+}
+/* conference highlights */
+.conference-hightlight {
+  text-align: center;
+}
+
+.conference-hightlight h4 {
+  color: white;
+  /* text-align: center; */
+  background-color: black;
+  width: 50%;
+  /* height: 20px; */
+  margin: 10px auto;
+  padding: 30px;
+  border: 1px solid white;
+}
+
+.conference-hightlight button {
+  background-color: rgb(111, 179, 34);
+  color: white;
+  width: 200px;
+  height: 50px;
+  border: 1px solid white;
+  border-radius: 5px;
+}

@@ -1,0 +1,90 @@
+* {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+/* The speakers card */
+.speakers-card {
+  width: 97%;
+  text-align: center;
+  padding-bottom: 5px;
+  margin: 0px auto;
+  /* border: 5px solid red; */
+}
+
+.speakers-card .speakers-bio,
+.speakers-card .img-and-topic-container {
+  border: 1px solid #aaa;
+  padding: 5px;
+  display: inline-block;
+  width: 450px;
+  margin: 4px 20px;
+}
+
+.img-container img {
+  width: 100%;
+  height: 540px;
+}
+
+.img-container p {
+  background-color: green;
+  color: white;
+  padding: 5px;
+  margin: 0px 0px 5px 0px;
+  border: 1px solid green;
+}
+
+/* The conference highlights */
+.highlights h3 {
+  padding: 20px;
+  background-color: black;
+  color: white;
+  border-radius: 3px;
+  width: 500px;
+  margin: 25px auto;
+}
+
+.conference-hightlight {
+  text-align: center;
+  margin: 5px auto;
+  width: 70%;
+}
+
+.call-to-action {
+  color: whitesmoke;
+  border: 1px solid rgb(111, 179, 34);
+  border-radius: 5px;
+  text-align: center;
+  padding: 5px 10px;
+  background-color: rgb(111, 179, 34);
+}
+
+.call-to-action h1 {
+  font-size: 1.5rem;
+}
+.conference-hightlight h4 {
+  color: white;
+  background-color: black;
+  width: 50%;
+  margin: 10px auto;
+  padding: 30px;
+  border: 1px solid rgb(111, 179, 34);
+}
+
+.conference-hightlight button {
+  background-color: black;
+  color: white;
+  width: 200px;
+  height: 50px;
+  border: 1px solid rgb(111, 179, 34);
+  border-radius: 5px;
+}
+
+.shape-empty-square {
+  background-color: white;
+  border: 4px solid peru;
+  width: 20px;
+  position: relative;
+  left: 500px;
+  margin: 10px 0px 30px;
+  height: 20px;
+}

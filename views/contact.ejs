@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact | SICT Symposium</title>
+    <!-- <link rel="stylesheet" href="/css/contact.css" /> -->
+    <link rel="stylesheet" href="../public/css/contact.css" />
+    <!-- for the navigation -->
+    <link
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <%- include('partials/nav') %>
+    <div class="container">
+      <h1>Contact Us</h1>
+      <p>
+        We'll never push extras that don't make sense for your brand just to
+        make a quick buck.
+      </p>
+      <p>Our pricing policy is as transparent as our process</p>
+    </div>
+    <br />
+    <div class="let-talk-container">
+      <div class="left-section">
+        <!-- Let's talk -->
+        <h3>Let's <span>Talk</span></h3>
+        <small
+          >Send us an email or start a conversation by filling the form
+          below</small
+        >
+        <h4>Reach Us Directly!</h4>
+        <div class="email-container">
+          <img src="" alt="mail icon" />
+          <h5>Email</h5>
+          <small>hello@softlight.degsig</small>
+        </div>
+        <div class="phone-container">
+          <img src="" alt="phoneicon" />
+          <h5>Phone</h5>
+          <small>1-234-34234</small>
+        </div>
+      </div>
+
+      <div class="right-section">
+        <div class="form-group">
+          <label for="name">
+            Full Name<span>*</span>
+            <input
+              type="text"
+              name="name"
+              id="name"
+              class="name"
+              placeholder="John Doe"
+            />
+          </label>
+          <label for="email"
+            >Your Email <span>*</span>
+            <input
+              placeholder="example@gmail.com"
+              type="email"
+              name="email"
+              id="email"
+            />
+          </label>
+        </div>
+
+        <div class="form-group">
+          <label for="phone"
+            >Phone <span>*</span>
+            <input
+              type="phone"
+              name="phone"
+              id="phone"
+              placeholder="08184549345"
+            />
+          </label>
+          <label for="subject"
+            >Subject <span>*</span>
+            <input
+              type="text"
+              placeholder="ex. Project"
+              name="subject"
+              id="subject"
+            />
+          </label>
+        </div>
+        <div class="form-group">
+          <label for="message">Message</label>
+          <textarea
+            name="message"
+            id="message"
+            cols="55"
+            rows="10"
+            placeholder="Enter message here..."
+          ></textarea>
+          <div class="but-container">
+            <button type="submit">Submit Message</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="socials">
+      <ul>
+        <li><a href="#">instagram</a></li>
+        <li><a href="#">facebook</a></li>
+        <li><a href="#">twitter</a></li>
+        <li><a href="#">LinkedIn</a></li>
+      </ul>
+    </div>
+
+    <iframe
+      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d...."
+      width="600"
+      height="450"
+      style="border: 0"
+      allowfullscreen=""
+      loading="lazy"
+    ></iframe>
+
+    <div class="map-container">
+      <iframe src="https://maps.app.goo.gl/vFaB22yQaTtnEDwf9" width="600"
+      height="450" style="border:0;" allowfullscreen="" loading="lazy"
+      referrerpolicy="no-referrer-
+
+      <!-- <embed src="https://maps.app.goo.gl/vFaB22yQaTtnEDwf9" type="map" /> -->
+    </div>
+    <div class="shape-pink-square"></div>
+    <br /><br /><br /><br /><br /><br />
+    <!-- <div class="container"> -->
+    <div class="conference-hightlight">
+      <div class="call-to-action">
+        <h1>Attend the "Future of Food" Symposium!</h1>
+        <h1>Secure your spot by registering today.</h1>
+        <small
+          >Build opportunities for future opportunities for products,
+          startups</small
+        >
+        <button>-> Register Now!</button>
+      </div>
+    </div>
+    <br /><br /><br /><br /><br /><br />
+    <!-- For the navigation button -->
+    <!-- <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script> -->
+
+    <%- include('partials/footer') %>
+
+    <!-- <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script> -->
+  </body>
+</html>

@@ -1,0 +1,12 @@
+/* Add a class for the fixed navigation */
+.fixed-top-nav {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000; /* Ensure it's above other content */
+}
+
+/* Add a class for the page content to adjust padding when the navigation is fixed */
+.content {
+  padding-top: 70px; /* Adjust based on the height of your navigation bar */
+}

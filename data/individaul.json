@@ -1,0 +1,22 @@
+[
+  {
+    "studentId": 12345,
+    "name": "John Doe",
+    "email": "john@example.com",
+    "contact": 1234567890,
+    "institution": "Example University",
+    "position": "Student",
+    "registrationType": "Full",
+    "comments": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+  },
+  {
+    "studentId": 67890,
+    "name": "Jane Smith",
+    "email": "jane@example.com",
+    "contact": 9876543210,
+    "institution": "Another University",
+    "position": "Professor",
+    "registrationType": "Partial",
+    "comments": "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+  }
+]

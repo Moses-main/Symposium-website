@@ -1,0 +1,151 @@
+* {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  padding: 0px;
+  margin: 0px;
+}
+
+/* The conference highlights */
+.highlights h3 {
+  padding: 20px;
+  background-color: black;
+  color: white;
+  border-radius: 3px;
+  width: 500px;
+  margin: 25px auto;
+}
+
+.conference-hightlight {
+  text-align: center;
+  margin: 5px auto;
+  width: 70%;
+}
+
+.call-to-action {
+  color: whitesmoke;
+  border: 1px solid rgb(111, 179, 34);
+  border-radius: 5px;
+  text-align: center;
+  padding: 5px 10px;
+  background-color: rgb(111, 179, 34);
+}
+
+.call-to-action h1 {
+  font-size: 1.5rem;
+}
+.conference-hightlight h4 {
+  color: white;
+  background-color: black;
+  width: 50%;
+  margin: 10px auto;
+  padding: 30px;
+  border: 1px solid rgb(111, 179, 34);
+}
+
+.conference-hightlight button {
+  background-color: black;
+  color: white;
+  width: 200px;
+  height: 50px;
+  border: 1px solid rgb(111, 179, 34);
+  border-radius: 5px;
+}
+
+.container {
+  text-align: center;
+}
+
+.let-talk-container {
+  width: 95%;
+  margin: 0px auto;
+  border: 1px solid green;
+}
+
+.let-talk-container .left-section,
+.let-talk-container .right-section {
+  width: 45%;
+  margin: 5px 10px;
+  display: inline-block;
+  /* border: 1px solid blue; */
+}
+
+.left-section {
+  display: block;
+}
+
+.left-section span {
+  background-color: black;
+  color: white;
+  padding: 3px;
+}
+
+.email-container,
+.phone-container {
+  border: 2px solid green;
+  border-radius: 20px;
+  display: inline-flex;
+  width: 300px;
+  background-color: black;
+  padding: 15px 10px;
+  margin: 20px;
+  color: white;
+}
+
+.right-section .form-group {
+  /* display: inline-block; */
+  /* border: 2px solid peachpuff; */
+  margin: 25px 0px;
+}
+
+.right-section .form-group label {
+  display: inline-block;
+  padding: 5px;
+}
+
+.right-section .form-group input,
+.right-section .form-group textarea {
+  border: 1px solid #aaa;
+  padding: 5px;
+  /* margin-right: 10px; */
+  border-radius: 15px;
+}
+.but-container {
+  text-align: center;
+}
+
+.but-container button {
+  width: 98%;
+  margin: 5px auto;
+  padding: 10px;
+  color: white;
+  font-weight: bold;
+  background-color: black;
+  border-radius: 5px;
+}
+.socials {
+  margin: 5px 0px 10px 30px;
+}
+
+.socials ul li {
+  list-style-type: none;
+  display: inline;
+  width: 60%;
+  margin: 10px 5px;
+}
+
+.map-container {
+  text-align: center;
+}
+.map-container embed {
+  width: 80%;
+  height: 300px;
+  margin: 20px 0px 10px 30px;
+  border: 1px solid #aaa;
+}
+
+.shape-pink-square {
+  height: 20px;
+  width: 20px;
+  background-color: palevioletred;
+  margin: 10px 0px 70px 40px;
+}
