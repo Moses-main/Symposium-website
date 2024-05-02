@@ -1,11 +1,11 @@
 * {
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
-/* .container {
-  margin: 2rem 0rem;
+.container {
+  /* margin: 2rem 0rem; */
   width: 95%;
   text-align: center;
-} */
+}
 
 .container div {
   display: inline-block;
@@ -64,6 +64,7 @@ small {
 /* The speakers */
 #speaker-heading {
   text-align: left;
+  margin: 0px 0px 0px 20px;
 }
 .speaker-img {
   border-radius: 50%;
@@ -180,4 +181,28 @@ small {
   height: 50px;
   border: 1px solid white;
   border-radius: 5px;
+}
+
+/* This is for the flyer */
+.flyer {
+  width: 450px;
+  height: auto;
+}
+.speaker-card {
+  margin: 90px 5px;
+  position: relative; /* Ensure the .speaker-card is the positioning context */
+}
+
+.speaker-img {
+  position: absolute;
+  top: 0;
+  margin-top: -165px;
+  left: 50%; /* Center horizontally */
+  transform: translateX(-50%); /* Center horizontally */
+  z-index: 1; /* Ensure the image is above other elements */
+}
+
+.speaker-bio {
+  position: relative; /* Ensure the .speaker-bio remains in the flow */
+  z-index: 2; /* Ensure the text is above the image */
 }
