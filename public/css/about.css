@@ -147,6 +147,9 @@
   background-color: #aaa;
 }
 
+a.white {
+  color: white;
+}
 .picture-container {
   width: 70%;
   height: 30%;
