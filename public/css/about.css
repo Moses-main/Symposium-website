@@ -55,7 +55,7 @@
 .container {
   width: 99%;
   margin: 3px auto;
-  border: 1px solid green;
+  /* border: 1px solid green; */
   text-align: center;
 }
 
